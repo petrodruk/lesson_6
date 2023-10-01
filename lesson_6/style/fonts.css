@@ -1,0 +1,29 @@
+/* ---------------Acrom---------- */
+@font-face {
+    font-family: "Acrom";
+    src:
+        url(../fonts/Acrom-Regular.woff2) format("woff2"),
+        url(../fonts/Acrom-Regular.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Acrom";
+    src:
+        url(../fonts/Acrom-Bold.woff2) format("woff2"),
+        url(../fonts/Acrom-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+/* ---------------Kurale---------- */
+@font-face {
+    font-family: "Kurale";
+    src:
+        url(../fonts/Kurale-Regular.woff2) format("woff2"),
+        url(../fonts/Kurale-Regular.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

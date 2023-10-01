@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url(fonts.css);
+@import url(reset.css);
+body {
+    font-family: "Inter";
+    font-size: 18px;
+    color: #7d7d7d;
+}
+.container {
+    max-width: 692px;
+    margin: 0 auto;
+}
+.container-2 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* -------Загальні блоки---------- */
+.title {
+    font-family: "Poppins";
+    font-weight: 600;
+}
+.consulting-title,
+.benefits-title {
+    color: #37393f;
+}
+.text p {
+    line-height: 1.4;
+}
+h1,
+.practice-title h2 {
+    font-family: "Acrom";
+}
+/* -------------header---------- */
+header {
+    background-color: pink;
+    min-height: 200px;
+}
+.header-container {
+    text-align: center;
+    padding: 30px 0px;
+}
+h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    text-shadow: 5px 6px 3px #7d7d7d;
+    letter-spacing: 20px;
+}
+.header-menu {
+    display: inline-block;
+}
+.header-item {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.header-link {
+    font-size: 24px;
+    font-family: "Kurale";
+}
+/* ------------------services-block---------------*/
+.services-block {
+    margin-bottom: 100px;
+}
+.item-services {
+    margin-bottom: 42px;
+}
+.services-image {
+    margin-bottom: 24px;
+}
+.services-image img {
+    max-width: 100%;
+}
+.services-content {
+    margin-bottom: 40px;
+}
+.consulting-title {
+    font-size: 30px;
+    line-height: 1.3;
+}
+.miltimedia-title {
+    color: #6b77e5;
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 12px;
+}
+.benefits-services {
+    font-size: 0;
+}
+.benefits-image {
+    display: inline-block;
+    max-width: 331px;
+    vertical-align: top;
+    margin-right: 29px;
+}
+.benefits-image img {
+    max-width: 100%;
+}
+.benefits-content {
+    display: inline-block;
+    max-width: 332px;
+    font-size: 18px;
+}
+.benefits-title {
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+.standart-title {
+    color: #40ddb6;
+    margin-bottom: 21px;
+    line-height: 1.25;
+}
+.benefits-item {
+    margin-bottom: 35px;
+}
+#item-zero {
+    margin: 0px 0px 0px 0px;
+}
+/* ---------------create-block------------ */
+.create-block {
+    background-color: #fff9f4;
+    padding: 140px 0px;
+}
+.create-content {
+    display: inline-block;
+    max-width: 563px;
+    margin-right: 38px;
+}
+.create-subtitle {
+    color: #d06b00;
+    font-size: 28px;
+    margin-bottom: 13px;
+}
+.create-title {
+    font-family: "DM Serif Text";
+    color: #0e333d;
+    line-height: 1.5;
+    font-size: 59px;
+    margin-bottom: 25px;
+}
+.create-text {
+    color: #474747;
+    line-height: 1.8;
+    font-size: 20px;
+}
+.jewels-images {
+    display: inline-block;
+    font-size: 0;
+    max-width: 558px;
+    vertical-align: top;
+}
+[alt="fashion designer"] {
+    margin-right: 12px;
+}
+/* ---------------Footer------------ */
+.block-container {
+    max-width: 1015px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.practice-title {
+    text-align: center;
+    background-color: #6b77e5;
+    padding: 3% 20px;
+}
+.practice-title h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+.jewelry-content {
+    margin-top: 100px;
+    background-color: #474747;
+}
+.jewelry-image {
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+}
+.jewelry-image img {
+    max-width: 100%;
+}
+.image-jewelry {
+    text-align: right;
+    margin-top: -200px;
+}
+.image-jewelry img {
+    max-width: 500px;
+}
+.jewelry-text {
+    display: inline-block;
+    overflow: scroll;
+    max-width: 400px;
+    height: 200px;
+}
+.practice-text {
+    text-align: center;
+}
+.text-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.text-auto {
+    display: inline-block;
+    overflow: auto;
+    max-height: 300px;
+    margin-bottom: 30px;
+}
+.text-hidden {
+    overflow: hidden;
+}
+/* ---------------footer--------- */
+footer {
+    margin-top: 50px;
+    background-color: #0e333d;
+    padding: 30px 0px;
+}
+.footer-title {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer-item {
+    margin-bottom: 15px;
+}
+.footer-link {
+    color: aqua;
+}
